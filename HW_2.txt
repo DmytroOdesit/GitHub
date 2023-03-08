@@ -1,0 +1,53 @@
+GitHub. HW_2
+1. На локальном репозитории сделать ветки для:
+- Postman
+- Jmeter
+- CheckLists
+- Bug_Reports
+- SQL
+- Charles
+- Mobile_testing 
+git branch +_name_of_branch
+
+2. Запушить все ветки на внешний репозиторий
+git push origin --all
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+cat >> Bug_repo.txt
+Category	Label	Value
+Bug ID	ID number	#1
+	Name	Performance
+	Reporter	Dmytro H.
+	Submit Date	08/16/22
+Bug overview	Summary	In this bug, the My Space share page loads infinitely.
+	URL	https://academybugs.com/find-bugs/
+	Screenshot	https://academybugs.com/wp-content/uploads/2020/10/20.png
+Environment	Platform	Intel
+	Operating System	Windows 10 Pro
+	Browser	Opera 89.0.4447.91
+Bug details	Steps to reproduce	"1. Open https://academybugs.com
+2. Click the Find Bugs link on the navigation bar
+3. Open a product
+4. Click the My Space share link"
+	Expected result	The user is able to share the product through My Space
+	Actual result	My Space share page loads infinitely
+	Description	/
+Bug tracking	Severity	Major
+	Assigned to	/
+	Priority	Low
+Notes	Notes	/
+Status	Status	Open
+
+4. Запушить структуру багрепорта на внешний репозиторий
+vim Bug_repo.txt
+
+5. Вмержить ветку Bag Reports в Main
+get merge Bug_Reports
+
+6. Запушить main на внешний репозиторий.
+7. В ветке CheckLists набросать структуру чек листа.
+
+8. Запушить структуру на внешний репозиторий
+git push -u origin CheckLists
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+10. Синхронизировать Внешнюю и Локальную ветки Main
