@@ -1,8 +1,6 @@
-PASS; Solo-1993
-
-
 JSON
  4. Создать внешний репозиторий c названием JSON.
+Create an external repository called JSON on GitHub
 
  5. Клонировать репозиторий JSON на локальный компьютер.
 git clone git@github.com:DmytroOdesit/JSON.git
