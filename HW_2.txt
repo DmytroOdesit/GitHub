@@ -24,18 +24,24 @@ Bug overview	Summary	In this bug, the My Space share page loads infinitely.
 Environment	Platform	Intel
 	Operating System	Windows 10 Pro
 	Browser	Opera 89.0.4447.91
-Bug details	Steps to reproduce	"1. Open https://academybugs.com
-2. Click the Find Bugs link on the navigation bar
-3. Open a product
-4. Click the My Space share link"
-	Expected result	The user is able to share the product through My Space
-	Actual result	My Space share page loads infinitely
+Bug details	Steps to reproduce
+        "1. Open https://academybugs.com
+         2. Click the Find Bugs link on the navigation bar
+         3. Open a product
+         4. Click the My Space share link"
+Expected result	
+          The user is able to share the product through My Space
+Actual result
+          My Space share page loads infinitely
 	Description	/
-Bug tracking	Severity	Major
-	Assigned to	/
-	Priority	Low
-Notes	Notes	/
-Status	Status	Open
+Bug tracking	
+        Severity - Major
+	Assigned to - /
+	Priority - Low
+Notes	
+        Notes	/
+Status	 
+        Status	Open
 
 4. Запушить структуру багрепорта на внешний репозиторий
 vim Bug_repo.txt
@@ -51,3 +57,4 @@ git push -u origin CheckLists
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 10. Синхронизировать Внешнюю и Локальную ветки Main
+ git pull
